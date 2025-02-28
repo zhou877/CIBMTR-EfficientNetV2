@@ -25,3 +25,5 @@ I optimized model architecture by tuning hidden layers, filter counts,and dropou
 Before modeling, I focus on optimizing the learning rate schedule to ensure stable and efficient convergence. I systematically tuned key parameters, including lr_start, lr_max, lr_min, lr_ramp_ep, lr_sus_ep, and lr_decay.
 
 During the model optimization process, I realized that individual parameter tuning yielded limited improvements, and the key to maximizing performance lay in finding the right combination of hyperparameters. This experimence deepened my understanding of model optimization.
+
+My solution on kaggle.[CIBMTR-EfficientNetV2](https://www.kaggle.com/code/wanyizhouzzz/cibmtr-efficientnetv2/notebook#Learning-Rate)
