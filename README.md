@@ -11,7 +11,7 @@ Inspired by the efficiency of EfficientNetV2 in image predication, I wanted to e
 
 **Build Datasets**
 
-While building the validation dataset, I encountered tensor shape mismatch errors that did not occur in image-based tasks. After analyzing the issue, I identified data type inconsistencies as the root cause. Adapted methods from [[Public] Classifier+CAT+XGB LB 0.688](https://www.kaggle.com/code/kendontcare11/public-classifier-cat-xgb-lb-0-688) to handle data, ensuring compatibility with models.
+While building the validation dataset, I encountered tensor shape mismatch errors that did not occur in image-based tasks. After analyzing the issue, I identified data type inconsistencies as the root cause. Adapted methods from [here](https://www.kaggle.com/code/kendontcare11/public-classifier-cat-xgb-lb-0-688) to handle data, ensuring compatibility with models.
 
 **Modeling**
 
