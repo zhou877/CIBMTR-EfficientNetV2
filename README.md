@@ -15,7 +15,7 @@ While building the validation dataset, I encountered tensor shape mismatch error
 
 **Modeling**
 
-I optimized model architecture by tuning hidden layers, filter counts,and dropout rates. During the optimization phase, I initially introduced dropout layers to mitigate overfitting. However, after analyzing the training dynamics, I noticed that dropout was hindering the model's ability to learn comlpex pattens, resulting in suboptimal performance. Through a series of ablation experiments, I systematically removed dropout layers and observed a significant improvement in model performance, with AUC reaching 0.99. This experimence taught me the importance of tailoring regularization strategies to specific tasks and datasets.  
+I optimized model architecture by tuning hidden layers, filter counts, and dropout rates. During the optimization phase, I initially introduced dropout layers to mitigate overfitting. However, after analyzing the training dynamics, I noticed that dropout was hindering the model's ability to learn comlpex pattens, resulting in suboptimal performance. Through a series of ablation experiments, I systematically removed dropout layers and observed a significant improvement in model performance, with AUC reaching 0.99. This experimence taught me the importance of tailoring regularization strategies to specific tasks and datasets.  
 
 ![image](https://github.com/user-attachments/assets/13732aa4-c7b9-4553-a1e0-b91995c8e153)
 
